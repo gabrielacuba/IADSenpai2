@@ -5,9 +5,9 @@ const pingController = require("./../controllers/pingController");
 
 
 /*giy
- Rutas de Ping
+ Rutas de Ping 
  */
 router.get('/ping', pingController.getPing);
 router.post('/watson/assistant/message', (req, res) => { res.send({ message: "watson/assistant/message" }) });
 
-module.exports=router;
+module.exports=router; 
