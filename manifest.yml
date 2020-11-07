@@ -1,0 +1,11 @@
+---
+applications: 
+  - name: senpai-academy-semestre2-gabrielacuba-dev
+    memory: 64M
+    instances: 1
+  - name: senpai-academy-semestre2-gabrielacuba-test
+    memory: 64M
+    instances: 1
+  - name: senpai-academy-semestre2-gabrielacuba-prod
+    memory: 128M
+    instances: 1

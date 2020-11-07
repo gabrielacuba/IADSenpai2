@@ -4,7 +4,7 @@ const router = express.Router();
 const pingController = require("./../controllers/pingController");
 
 
-/*
+/*giy
  Rutas de Ping
  */
 router.get('/ping', pingController.getPing);
